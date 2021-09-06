@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".Gender2" >
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="312dp"
+        android:layout_height="106dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="309dp">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:text="student" />
+
+        <RadioButton
+            android:id="@+id/radio0"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:checked="true"
+            android:text="admin" />
+
+    </RadioGroup>
+
+</RelativeLayout>
